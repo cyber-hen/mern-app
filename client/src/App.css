@@ -1,0 +1,15 @@
+.app-container {
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.page h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
