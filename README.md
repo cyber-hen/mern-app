@@ -21,6 +21,7 @@ mern-app/
 │   ├── routes/          # API routes
 │   ├── middleware/      # Custom middleware
 │   ├── index.js         # Server entry point
+|   ├── Dockerfile       # Dockerfile configuration
 |   └── package.json     # Package.json
 ├── client/
 │   ├── public/          # Static files
@@ -29,8 +30,10 @@ mern-app/
 │   │   ├── pages/       # Page components
 │   │   ├── App.js       # Main App component
 │   │   └── index.js     # React entry point
-│   └── package.json
-└── README.md
+|   ├── Dockerfile       # Dockerfile configuration
+│   └── package.json     # Package.json
+├── compose.yaml         # Docker compose configuration
+└── README.md            # READ.ME 
 ```
 
 ## Installation
@@ -63,7 +66,7 @@ mern-app/
 5. Create a `.env` file in the `server` directory:
    ```
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/mern-app
+   MONGODB_URI=mongodb://localhodst:27017/mern-app
    JWT_SECRET=your_jwt_secret_key
    NODE_ENV=development
    ```

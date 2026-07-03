@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Database Connection
 mongoose
-  .connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/mern-app')
+  .connect(process.env.MONGODB_URI || 'mongodb://db:27017/mern-app')
   .then(() => console.log('MongoDB connected'))
   .catch((err) => console.log('MongoDB connection error:', err));
 
