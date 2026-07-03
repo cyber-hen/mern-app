@@ -20,7 +20,8 @@ mern-app/
 │   ├── models/          # MongoDB models
 │   ├── routes/          # API routes
 │   ├── middleware/      # Custom middleware
-│   └── index.js         # Server entry point
+│   ├── index.js         # Server entry point
+|   └── package.json     # Package.json
 ├── client/
 │   ├── public/          # Static files
 │   ├── src/
@@ -29,7 +30,6 @@ mern-app/
 │   │   ├── App.js       # Main App component
 │   │   └── index.js     # React entry point
 │   └── package.json
-├── package.json         # Root package.json
 └── README.md
 ```
 
