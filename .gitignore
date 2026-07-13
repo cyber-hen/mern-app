@@ -5,6 +5,7 @@ node_modules/
 
 # Environment variables
 .env
+*.env.example
 .env.local
 .env.*.local
 
@@ -28,7 +29,8 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-
+.dockerignore
+.gitignore
 # Testing
 coverage/
 .nyc_output/
